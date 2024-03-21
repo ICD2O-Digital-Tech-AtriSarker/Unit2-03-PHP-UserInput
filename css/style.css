@@ -9,7 +9,7 @@ h1 {
   margin: 50px 0;
 }
 
-input, button, #resultDisplay {
+input, #resultDisplay {
   background-color: #737f1a;
   color: #ffffff;
   border: none;
@@ -21,12 +21,12 @@ input, button, #resultDisplay {
   color:#f8f9c3
 }
 
-button {
+input[type="submit"] {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #dcff2e;
+input[type="submit"]:hover {
+  background-color: #9eb13e;
 }
 
 h3 {
